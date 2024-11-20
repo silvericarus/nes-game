@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://cqtw5mmty41ya"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="ParallaxBackground" type="Node2D" parent="."]
+scale = Vector2(200, 200)
