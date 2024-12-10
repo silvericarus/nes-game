@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://cehv7nxceijtw"]
+
+[ext_resource type="Texture2D" uid="uid://5wx13ro40nlc" path="res://Assets/laser_shooter.png" id="1_mwkr0"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_8pb27"]
+size = Vector2(32, 32)
+
+[node name="LaserShooterDown" type="StaticBody2D"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_8pb27")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(-1.90735e-06, 1.90735e-06)
+rotation = 3.14159
+texture = ExtResource("1_mwkr0")

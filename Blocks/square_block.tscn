@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://bjcb2ditlgu2f"]
+
+[ext_resource type="Texture2D" uid="uid://1rsddtjahc6g" path="res://Assets/block_square.png" id="1_yp26o"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_2wytx"]
+size = Vector2(64, 64)
+
+[node name="SquareBlock" type="StaticBody2D"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_2wytx")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(-1.90735e-06, 1.90735e-06)
+texture = ExtResource("1_yp26o")

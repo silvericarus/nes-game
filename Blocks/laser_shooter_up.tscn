@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://duedufm6sl5y2"]
+
+[ext_resource type="Texture2D" uid="uid://5wx13ro40nlc" path="res://Assets/laser_shooter.png" id="1_h0yan"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_2wytx"]
+size = Vector2(32, 34)
+
+[node name="LaserShooterUp" type="StaticBody2D"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 1)
+shape = SubResource("RectangleShape2D_2wytx")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(-1.90735e-06, 1.90735e-06)
+texture = ExtResource("1_h0yan")

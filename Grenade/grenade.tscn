@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://b2yvococ8p22s"]
+
+[ext_resource type="Texture2D" uid="uid://dqi3cu1vw5wds" path="res://Assets/ball_red_small_alt.png" id="1_fmv42"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_3sc67"]
+radius = 16.0
+
+[node name="Grenade" type="RigidBody2D"]
+mass = 0.8
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_3sc67")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_fmv42")

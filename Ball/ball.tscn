@@ -3,13 +3,14 @@
 [ext_resource type="Texture2D" uid="uid://jvab74sk6gho" path="res://Assets/ball_blue_large.png" id="1_vsjlv"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_icbyk"]
+radius = 9.41177
 
 [node name="Ball" type="RigidBody2D"]
 mass = 0.6
 
-[node name="Sprite2D" type="Sprite2D" parent="."]
-texture = ExtResource("1_vsjlv")
-
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 scale = Vector2(3.4, 3.4)
 shape = SubResource("CircleShape2D_icbyk")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_vsjlv")
