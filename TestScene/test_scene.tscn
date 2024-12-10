@@ -16,7 +16,7 @@ offset_bottom = 648.0
 color = Color(0.172549, 0.243137, 1, 1)
 
 [node name="Grenade" parent="." instance=ExtResource("6_vdphr")]
-position = Vector2(872, 40)
+position = Vector2(904, 568)
 
 [node name="Ball" parent="." instance=ExtResource("1_tmmlm")]
 position = Vector2(288, 160)
